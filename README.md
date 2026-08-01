@@ -55,8 +55,10 @@ flappy-bird-game/
 Ensure you have **Python 3.8+** installed. Install the required dependencies:
 
 ```bash
-pip install gymnasium flappy-bird-gymnasium torch pygame pyyaml
+pip install --no-deps -r requirements.txt
 ```
+
+
 
 ---
 
@@ -83,9 +85,16 @@ To play Flappy Bird manually using your keyboard:
 ```bash
 python flappy_bird.py
 ```
-- Press **`SPACEBAR`** to flap.
+### 4️⃣ Launch the Streamlit Demo Web App 🌐
+To launch the interactive demo web app in your browser:
+
+```bash
+streamlit run app.py
+```
+- Includes live AI gameplay, real-time Q-value telemetries, hyperparameter tuning lab, Plotly analytics, and interactive model state simulator.
 
 ---
+
 
 ## 🧠 Model Architecture & Deep Q-Learning
 
