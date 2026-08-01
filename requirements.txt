@@ -1,6 +1,6 @@
 gymnasium>=0.29.0
 flappy-bird-gymnasium>=0.4.0
-pygame-ce>=2.5.0
+pygame>=2.1.0
 torch>=2.0.0
 pyyaml>=6.0.0
 streamlit>=1.30.0

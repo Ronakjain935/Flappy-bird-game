@@ -1,3 +1,7 @@
+import os
+os.environ["SDL_VIDEODRIVER"] = "dummy"
+os.environ["SDL_AUDIODRIVER"] = "dummy"
+
 import streamlit as st
 import torch
 import torch.nn as nn
@@ -10,12 +14,12 @@ import plotly.express as px
 import pandas as pd
 from PIL import Image
 import yaml
-import os
 import time
 import random
 import itertools
 from dqn import DQN
 from experience_replay import ReplayMemory
+
 
 # --- PAGE CONFIG ---
 st.set_page_config(
